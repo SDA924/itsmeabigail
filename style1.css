@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+.active{
+	font-weight: bolder;
+}
+
+
+
 @keyframes photoHome {
 	0% {
 		opacity: 0;
@@ -98,4 +104,79 @@
 	  transform: translateX(0);
 	  opacity: 1;
 	}
+  }
+
+  @media (min-width: 1200px){
+	#concreator p{
+		inline-size: 40vw;
+	}
+	#sosmed p{
+		inline-size: 40vw;
+	}
+	#hello {
+		width: 30% !important;
+	}
+	#FotoHome {
+		width: 20% !important;
+	}
+	#Home a{
+		width: 25% !important;
+	}
+	#workdocum p{
+		inline-size: 50vw !important;
+	}
+	#workdocum img{
+		width: 43% !important;
+	}
+	
+	#imgHimcom{
+		width: 39% !important;
+	}
+	#garis{
+		width: 55% !important;
+		
+	}
+	#iconsosmed i{
+		font-size: 3vw !important;
+	}
+	#descBand{
+		inline-size: 35rem !important;
+	}
+	#fotoband{
+		margin: 1rem !important;
+		width: 30% !important;
+	}
+	#sunib{
+		inline-size: 30rem !important;
+	}
+	#sunibpro {
+		padding: 8rem !important;
+	}
+	#slide{
+		width: 30vw !important;
+	}
+	#greja{
+		width: 15% !important;
+	}
+	#descYouth{
+		inline-size: 50vw !important;
+	}
+	#descHimcom{
+		inline-size: 50vw !important;
+	}
+	#imgGreja{
+		display: block !important;
+	}
+	
+  }
+  .reveal{
+	position: relative;
+	transform: translateY(150px);
+	opacity: 0;
+	transition: 1s all ease;
+  }
+  
+  .reveal.active{
+	transform: translateY(0);
+	opacity: 1;
   }
